@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+@media screen and (min-width: 900px) {
+    .Container {
+        max-width: 960px;
+        width: 96%;
+        margin: 0px auto;
+    }
+}
+
+#siteHeader {
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#siteLogo {
+    text-align: center;
+    margin-top: 12px;
+}
+
+#siteLogo img {
+    text-align: center;
+    height: 64px;
+    width: auto;
+}
+
+#scmLink img {
+    width: 35px;
+    height: 35px;
+    padding: 2px;
+    transition: 0.25s;
+}
+
+#scmLink img:hover {
+    transform: translateY(-8px);
+}
+
+#scmLink {
+    text-align: center;
+    margin-top: 5px;
+}
+
+@media screen and (min-width: 900px) {
+    #siteLogo {
+        float: left;
+    }
+
+    #siteLogo img {
+        height: 100px;
+    }
+
+    #scmLink {
+        float: right;
+        margin-bottom: 0px;
+        margin-top: 70px;
+    }
+}
+
+#mainNav {
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+}
+
+#navMenu {
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+
+#navList {
+    display: none;
+}
+
+@media screen and (min-width: 900px) {
+    #navList {
+        display: block;
+    }
+
+    #navMenu {
+        display: none;
+    }
+}
+
+#mainNav ul {
+    margin: 0px;
+}
+
+#mainNav li {
+    display: block;
+    color: white;
+    padding: 10px;
+}
+
+#mainNav li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+#mainNav li a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 900px) {
+    #mainNav li {
+        display: inline-block;
+        color: white;
+    }
+}
+
+#siteFooter {
+    background-color: grey;
+    text-align: center;
+    color: white;
+}
+
+.ClearLeft {
+    clear: left;
+}
+
+.ClearRight {
+    clear: right;
+}
+
+.ClearBoth {
+    clear: both;
+}
+
+@media screen and (max-width: 900px)
+{
+    #pageCont article {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#pageCont article p {
+    text-align: justify;
+}
+
+#pageCont .PageTitle {
+    color: lightslategrey;
+    padding: 5px 12px;
+    border-radius: 5px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#pageCont {
+    background-color: white;
+    padding: 3px 10px;
+}
+
+@media screen and (min-width: 900px) {
+	#pageCont {
+		box-shadow: 5px 10px 8px lightgrey;
+	}
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
