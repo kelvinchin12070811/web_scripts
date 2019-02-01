@@ -51,13 +51,13 @@ body {
     }
 
     #siteLogo img {
-        height: 100px;
+        height: 70px;
     }
 
     #scmLink {
         float: right;
         margin-bottom: 0px;
-        margin-top: 70px;
+        margin-top: 40px;
     }
 }
 
