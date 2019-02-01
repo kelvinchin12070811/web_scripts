@@ -1,30 +1,30 @@
 function HtmlGenerator()
 {
-    document.head.innerHTML += `<link rel="icon" href="https://kelvinchin12070811.bitbucket.io/cdn/images/applab_logo.svg">`;
+    document.head.innerHTML += `<link rel="icon" href="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/applab_logo.svg">`;
     this.navList = [
-        { display: "Home", link: "https://kelvinchin12070811.github.io" },
-        { display: "Projects", link: "https://kelvinchin12070811.github.io/projects.html" },
+        { display: "Home", link: "/" },
+        { display: "Projects", link: "/projects.html" },
         { display: "Blog", link: "https://kelvinchin12070811.blogspot.com"},
-        { display: "About", link: "https://kelvinchin12070811.github.io/about.html"}
+        { display: "About", link: "/about.html"}
     ];
     this.scnList = [
         {
-            img: "https://kelvinchin12070811.bitbucket.io/cdn/images/facebook.svg",
+            img: "https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/facebook.svg",
             link: "https://www.facebook.com/kuangkaiwen",
             tooltip: "Facebook"
         },
         {
-            img: "https://kelvinchin12070811.bitbucket.io/cdn/images/twitter.svg",
+            img: "https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/twitter.svg",
             link: "https://www.twitter.com/chinkaiwen",
             tooltip: "Twitter"
         },
         {
-            img: "https://kelvinchin12070811.bitbucket.io/cdn/images/github.svg",
+            img: "https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/github.svg",
             link: "https://github.com/kelvinchin12070811",
             tooltip: "Github"
         },
         {
-            img: "https://kelvinchin12070811.bitbucket.io/cdn/images/bitbucket.svg",
+            img: "https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/bitbucket.svg",
             link: "https://bitbucket.org/kelvinchin12070811",
             tooltip: "Bitbucket"
         }
@@ -37,7 +37,7 @@ HtmlGenerator.prototype.genHeader = function(headerId)
     var header = `
 <div class="Container">
     <div id="siteLogo">
-        <img src="https://kelvinchin12070811.bitbucket.io/cdn/images/applab_banner.svg">
+        <img src="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/applab_banner.svg">
     </div>
     <div id="scmLink">
         ${ this.scnList.map(itr => itr.link == null ?
@@ -49,7 +49,7 @@ HtmlGenerator.prototype.genHeader = function(headerId)
 <nav id="mainNav" class="ClearBoth">
     <div class="Container"> 
         <div id="navMenu" onclick="onMenuClicked()">
-            <img src="https://kelvinchin12070811.bitbucket.io/cdn/images/menu.svg" id="navMenu" width="32" height="32">
+            <img src="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/menu.svg" id="navMenu" width="32" height="32">
         </div>
         <ul id="navList">
             ${ this.navList.map(itr => (itr.link == null) ?
