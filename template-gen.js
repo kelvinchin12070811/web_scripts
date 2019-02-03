@@ -1,6 +1,6 @@
 function HtmlGenerator()
 {
-    document.head.innerHTML += `<link rel="icon" href="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/applab_logo.svg">`;
+    document.head.innerHTML += `<link rel="icon" href="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/applab_logo.png">`;
     this.navList = [
         { display: "Home", link: "/" },
         { display: "Projects", link: "/projects.html" },
