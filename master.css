@@ -88,6 +88,7 @@ body {
 
 #mainNav ul {
     margin: 0px;
+    padding-left: 0px;
 }
 
 #mainNav li {
