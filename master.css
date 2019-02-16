@@ -74,6 +74,7 @@ body {
 
 #navList {
     display: none;
+    padding-left: 0px;
 }
 
 @media screen and (min-width: 900px) {
@@ -88,7 +89,6 @@ body {
 
 #mainNav ul {
     margin: 0px;
-    padding-left: 0px;
 }
 
 #mainNav li {
