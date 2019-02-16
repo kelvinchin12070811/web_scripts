@@ -3,9 +3,9 @@ function HtmlGenerator()
     document.head.innerHTML += `<link rel="icon" href="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/applab_logo.png">`;
     this.navList = [
         { display: "首页", link: "/" },
-        { display: "项目", link: "/projects.html" },
+        { display: "项目", link: "/p/projects.html" },
         { display: "实验室", link: "https://kelvinchin12070811.github.io"},
-        { display: "关于", link: "/about.html"}
+        { display: "关于", link: "/p/about.html"}
     ];
     this.scnList = [
         {
