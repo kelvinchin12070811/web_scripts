@@ -73,6 +73,7 @@ body {
 
 .CustomBtn img {
     cursor: pointer;
+    display: block;
 }
 
 #navList {
