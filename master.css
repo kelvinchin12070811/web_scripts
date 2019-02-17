@@ -67,8 +67,11 @@ body {
     overflow: hidden;
 }
 
-#navMenu {
+.CustomBtn {
     display: block;
+}
+
+.CustomBtn img {
     cursor: pointer;
 }
 

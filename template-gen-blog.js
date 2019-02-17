@@ -48,11 +48,11 @@ HtmlGenerator.prototype.genHeader = function(headerId)
 </div>
 <nav id="mainNav" class="ClearBoth">
     <div class="Container"> 
-        <div style="float: right;" id="sidebarBtn" onclick="onSidebarClicked()">
-            <img src="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/sidebar.svg" style="display: block; cursor: pointer" width="32" height="32">
+        <div style="float: right;" class="CustomBtn" id="sidebarBtn">
+            <img  onclick="onSidebarClicked()" src="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/sidebar.svg" style="display: block; cursor: pointer" width="32" height="32">
         </div>
-        <div id="navMenu" onclick="onMenuClicked()">
-            <img src="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/menu.svg" style="display: block" width="32" height="32">
+        <div id="navMenu" class="CustomBtn">
+            <img onclick="onMenuClicked()" src="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/menu.svg" style="display: block" width="32" height="32">
         </div>
         <ul id="navList">
             ${ this.navList.map(itr => (itr.link == null) ?
