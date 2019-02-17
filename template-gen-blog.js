@@ -48,6 +48,9 @@ HtmlGenerator.prototype.genHeader = function(headerId)
 </div>
 <nav id="mainNav" class="ClearBoth">
     <div class="Container"> 
+        <div style="float: right;" id="sidebar" onclick="onSidebarClicked()">
+            <img src="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/sidebar.svg" id="sidebar" width="32" height="32">
+        </div>
         <div id="navMenu" onclick="onMenuClicked()">
             <img src="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/menu.svg" id="navMenu" width="32" height="32">
         </div>
