@@ -48,8 +48,8 @@ HtmlGenerator.prototype.genHeader = function(headerId)
 </div>
 <nav id="mainNav" class="ClearBoth">
     <div class="Container"> 
-        <div id="navMenu" onclick="onMenuClicked()">
-            <img src="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/menu.svg" style="display: block" width="32" height="32">
+        <div id="navMenu" class="CustomBtn">
+            <img onclick="onMenuClicked()" src="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/menu.svg" width="32" height="32">
         </div>
         <ul id="navList">
             ${ this.navList.map(itr => (itr.link == null) ?

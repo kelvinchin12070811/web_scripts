@@ -77,6 +77,11 @@ body {
     display: block;
 }
 
+.Sticky {
+    position: fixed;
+    width: 100%;
+}
+
 #navList {
     display: none;
     padding-left: 0px;

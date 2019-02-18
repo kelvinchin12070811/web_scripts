@@ -7,3 +7,20 @@ function onMenuClicked()
     else
         navList.style.display = "";
 }
+
+function onWindowScrolled()
+{
+    var navBar = document.getElementById('mainNav');
+    var sticky = navBar.offsetTop;
+
+    if (window.pageYOffset >= sticky)
+    {
+        navBar.classList.add('Sticky');
+    }
+    else
+    {
+        navBar.classList.remove('Sticky');
+    }
+}
+
+window.onscroll = function() { onWindowScrolled() };
