@@ -8,11 +8,14 @@ function onMenuClicked()
         navList.style.display = "";
 }
 
-var navBar = document.getElementById('mainNav');
-var sticky = navBar.offsetTop;
+var navBar = null;
+var sticky = null;
 
 function onWindowScrolled()
 {
+    if (navBar == null) navBar = document.getElementById('mainNav');
+    if (sticky == null) sticky = navBar.offsetTop;
+    
     if (window.pageYOffset >= sticky)
     {
         navBar.classList.add('Sticky');
