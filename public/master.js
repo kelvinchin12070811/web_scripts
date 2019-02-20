@@ -22,7 +22,7 @@ function windowScrolled()
 
     if (window.pageYOffset >= sticky)
     {
-        siteHeader.style.paddingBottom = siteNav.offsetBottom + 'px';
+        siteHeader.style.paddingBottom = siteNav.offsetHeight + 'px';
         navBar.classList.add('Sticky');
     }
     else
