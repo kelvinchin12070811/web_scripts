@@ -24,6 +24,11 @@ function HtmlGenerator()
             tooltip: "Github"
         },
         {
+            img: "https://kelvinchin12070811.gitlab.io/web_images/gitlab.svg",
+            link: "https://www.gitlab.com/kelvinchin12070811",
+            tooltip: "Gitlab"
+        },
+        {
             img: "https://kelvinchin12070811.gitlab.io/web_images/bitbucket.svg",
             link: "https://bitbucket.org/kelvinchin12070811",
             tooltip: "Bitbucket"
