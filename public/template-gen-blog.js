@@ -4,7 +4,7 @@ function HtmlGenerator()
     this.navList = [
         { display: "首页", link: "/" },
         { display: "项目", link: "/p/projects.html" },
-        { display: "实验室", link: "https://kelvinchin12070811.github.io"},
+        { display: "实验室", link: "https://kelvinchin12070811.gitlab.io"},
         { display: "关于", link: "/p/about.html"}
     ];
     this.scnList = [
