@@ -1,6 +1,6 @@
 function HtmlGenerator()
 {
-    document.head.innerHTML += `<link rel="icon" href="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/applab_logo.png">`;
+    document.head.innerHTML += `<link rel="icon" href="https://kelvinchin12070811.gitlab.io/web_images/applab_logo.png">`;
     this.navList = [
         { display: "首页", link: "/" },
         { display: "项目", link: "/p/projects.html" },
@@ -9,22 +9,22 @@ function HtmlGenerator()
     ];
     this.scnList = [
         {
-            img: "https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/facebook.svg",
+            img: "https://kelvinchin12070811.gitlab.io/web_images/facebook.svg",
             link: "https://www.facebook.com/kuangkaiwen",
             tooltip: "Facebook"
         },
         {
-            img: "https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/twitter.svg",
+            img: "https://kelvinchin12070811.gitlab.io/web_images/twitter.svg",
             link: "https://www.twitter.com/chinkaiwen",
             tooltip: "Twitter"
         },
         {
-            img: "https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/github.svg",
+            img: "https://kelvinchin12070811.gitlab.io/web_images/github.svg",
             link: "https://github.com/kelvinchin12070811",
             tooltip: "Github"
         },
         {
-            img: "https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/bitbucket.svg",
+            img: "https://kelvinchin12070811.gitlab.io/web_images/bitbucket.svg",
             link: "https://bitbucket.org/kelvinchin12070811",
             tooltip: "Bitbucket"
         }
@@ -37,7 +37,7 @@ HtmlGenerator.prototype.genHeader = function(headerId)
     var header = `
 <div class="Container">
     <div id="siteLogo">
-        <img src="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/applab_banner.svg">
+        <img src="https://kelvinchin12070811.gitlab.io/web_images/applab_banner.svg">
     </div>
     <div id="scmLink">
         ${ this.scnList.map(itr => itr.link == null ?
@@ -49,10 +49,10 @@ HtmlGenerator.prototype.genHeader = function(headerId)
 <nav id="mainNav" class="ClearBoth">
     <div class="Container"> 
         <div style="float: right;" class="CustomBtn" id="sidebarBtn">
-            <img  onclick="onSidebarClicked()" src="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/sidebar.svg" width="32" height="32">
+            <img  onclick="onSidebarClicked()" src="https://kelvinchin12070811.gitlab.io/web_images/sidebar.svg" width="32" height="32">
         </div>
         <div id="navMenu" class="CustomBtn">
-            <img onclick="onMenuClicked()" src="https://cdn.jsdelivr.net/gh/kelvinchin12070811/cdn_images/menu.svg" width="32" height="32">
+            <img onclick="onMenuClicked()" src="https://kelvinchin12070811.gitlab.io/web_images/menu.svg" width="32" height="32">
         </div>
         <ul id="navList">
             ${ this.navList.map(itr => (itr.link == null) ?
