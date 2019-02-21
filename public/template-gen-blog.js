@@ -3,7 +3,7 @@ function HtmlGenerator()
     document.head.innerHTML += `<link rel="icon" href="https://kelvinchin12070811.gitlab.io/web_images/applab_logo.png">`;
     this.navList = [
         { display: "首页", link: "/" },
-        { display: "项目", link: "/p/projects.html" },
+        { display: "项目", link: "/p/catelogue.html" },
         { display: "实验室", link: "https://kelvinchin12070811.gitlab.io"},
         { display: "关于", link: "/p/about.html"}
     ];
