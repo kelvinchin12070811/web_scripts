@@ -1,0 +1,69 @@
+.ProjectList {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ProjectCard {
+    margin-top: 10px;
+    padding: 8px;
+    clear: both;
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #c8c8c8;
+    color: black;
+    min-width: 500px;
+    border-radius: 12px;
+    display: none;
+}
+
+.ProjectCard h2, p {
+    margin: 8px 0px;
+}
+
+.ProjectAvatar {
+    float: left;
+    display: block;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    padding-right: 12px;
+}
+
+#nullprj {
+    text-align: center;
+    font-style: italic;
+}
+
+#tagList {
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Show {
+    display: inline-block;
+}
+
+.Tags {
+    background-color: rgb(120, 194, 223);
+    color: #fff;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 6px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.TagActive {
+    color: rgb(120, 194, 223);
+    background-color: #fff;
+    border: 1px solid rgb(120, 194, 223);
+}
+
+.Tags:hover {
+    background-color: #fff;
+    color: rgb(120, 194, 223);
+    transition-duration: 500ms;
+}
