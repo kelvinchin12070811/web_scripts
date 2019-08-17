@@ -12,7 +12,7 @@
     text-decoration: none;
     background-color: #c8c8c8;
     color: black;
-    min-width: 500px;
+    width: 90%;
     border-radius: 12px;
     display: none;
 }
@@ -22,13 +22,24 @@
 }
 
 .ProjectAvatar {
-    float: left;
     display: block;
     max-width: 100px;
     max-height: 100px;
     min-width: 100px;
     min-height: 100px;
     padding-right: 12px;
+}
+
+@media screen and (min-width: 900px)
+{
+    .ProjectCard {
+        min-width: 600px;
+        max-width: 600px;
+    }
+
+    .ProjectAvatar {
+        float: left;
+    }
 }
 
 #nullprj {
