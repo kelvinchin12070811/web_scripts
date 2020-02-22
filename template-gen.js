@@ -10,7 +10,7 @@ function HtmlGenerator()
     this.scnList = [
         {
             img: "https://cdn.jsdelivr.net/gh/kelvinchin12070811/web_images/facebook.svg",
-            link: "https://www.facebook.com/kuangkaiwen",
+            link: "https://www.facebook.com/kelvinchin12070811",
             tooltip: "Facebook"
         },
         {
