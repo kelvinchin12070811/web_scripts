@@ -25,6 +25,12 @@ body {
     border-radius: 10px;
 }
 
+#main-nav-placeholder {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
 #sns {
     font-size: 30px;
 }
@@ -32,6 +38,11 @@ body {
 #sns a {
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 900px) {
