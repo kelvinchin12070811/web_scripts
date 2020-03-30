@@ -17,8 +17,13 @@ body {
     width: auto;
 }
 
+#main-nav {
+    flex-direction: column;
+}
+
 .main-nav-btn {
     transition-duration: .5s;
+    display: block;
 }
 
 .main-nav-btn:hover {
@@ -45,6 +50,10 @@ body {
     text-decoration: underline;
 }
 
+.hide-nav {
+    display: none;
+}
+
 @media screen and (min-width: 900px) {
     #logos {
         text-align: left;
@@ -57,12 +66,24 @@ body {
     }
 
     #main-nav {
-        display: flex;
+        flex-direction: row;
         justify-content: center;
     }
 
     #sns {
         display: flex;
         align-items: flex-end;
+    }
+
+    .main-nav-btn {
+        display: inline-block;
+    }
+
+    #show-nav {
+        display: none;
+    }
+
+    .hide-nav {
+        display: flex;
     }
 }
