@@ -1,0 +1,20 @@
+{
+    "nav": [
+        {
+            "name": "Home",
+            "link": "https://kelvinchin12070811.gitlab.io"
+        },
+        {
+            "name": "Experiments",
+            "link": "https://kelvinchin12070811.gitlab.io/experiments.html"
+        },
+        {
+            "name": "Blog",
+            "link": "https://kelvinchin12070811.blogspot.com"
+        },
+        {
+            "name": "About",
+            "link": "https://kelvinchin12070811.gitlab.io/about.html"
+        }
+    ]
+}
