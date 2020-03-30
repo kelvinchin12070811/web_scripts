@@ -7,12 +7,6 @@ function templateGenAll(headerId: string = "", footerId: string = ""): void
     });
 }
 
-function templateAddDependencies(): void
-{
-    let head = document.head;
-
-}
-
 function templateApplyBluePrint(headerId: string, footerId: string): void
 {
     const headerCtn = `<header w3-include-html="static/template/header.html"></header>
