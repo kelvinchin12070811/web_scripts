@@ -1,15 +1,16 @@
-function templateGenAll(headerId: string = "", footerId: string = ""): void
+function templateGenAll(): void
 {
-    templateApplyBluePrint(headerId, footerId);
+    templateApplyBluePrint();
     w3.includeHTML(() => {
         templateGenPlaceHolders();
         templateGenFooterYear();
     });
 }
 
-function templateApplyBluePrint(headerId: string, footerId: string): void
+function templateApplyBluePrint(): void
 {
-    const headerCtn = `<header w3-include-html="static/template/header.html"></header>
+    let body = document.body;
+    body.innerHTML = `<header w3-include-html="static/template/header.html"></header>
 <div class="w3-bar w3-black" id="main-nav-placeholder">
     <nav class="content-limiter" id="main-nav">
         <a class="w3-button w3-black w3-hover-white main-nav-btn" w3-repeat="nav" href="{{link}}">
@@ -17,30 +18,10 @@ function templateApplyBluePrint(headerId: string, footerId: string): void
         </a>
     </nav>
 </div>
-    <div class="content-limiter">`;
-    const footerCtn = `</div>
-    <footer w3-include-html="static/template/footer.html"></footer>`;
-
-    if (headerId != "" && footerId != "")
-    {
-        let header = document.getElementById(headerId);
-        let footer = document.getElementById(footerId);
-        
-        if (header == null || footer == null)
-        {
-            console.log("unable to write to header and footer");
-            return;
-        }
-
-        header.innerHTML = headerCtn;
-        footer.innerHTML = footerCtn;
-        return;
-    }
-
-    let body = document.body;
-    body.innerHTML = `${headerCtn}
+<div class="content-limiter">
     ${body.innerHTML}
-    ${footerCtn}`;
+</div>
+<footer w3-include-html="static/template/footer.html"></footer>`;
 }
 
 function templateGenPlaceHolders(): void
