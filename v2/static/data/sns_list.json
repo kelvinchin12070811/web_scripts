@@ -1,0 +1,34 @@
+{
+    "sns": [
+        {
+            "name": "Facebook",
+            "icon": "fab fa-facebook",
+            "link": "https://www.facebook.com/kelvinchin12070811",
+            "color": "logo-theme-fb"
+        },
+        {
+            "name": "Twitter",
+            "icon": "fab fa-twitter",
+            "link": "https://www.twitter.com/chinkaiwen",
+            "color": "logo-theme-twitter"
+        },
+        {
+            "name": "Github",
+            "icon": "fab fa-github",
+            "link": "https://github.com/kelvinchin12070811",
+            "color": "logo-theme-github"
+        },
+        {
+            "name": "Gitlab",
+            "icon": "fab fa-gitlab",
+            "link": "https://gitlab.com/kelvinchin12070811",
+            "color": "logo-theme-gitlab"
+        },
+        {
+            "name": "Bitbucket",
+            "icon": "fab fa-bitbucket",
+            "link": "https://www.bitbucket.org/kelvinchin12070811",
+            "color": "logo-theme-bitbucket"
+        }
+    ]
+}

@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="static/master.css">
+    <link rel="stylesheet" href="static/styles/master.css">
+    <link rel="stylesheet" href="static/styles/sns_logo_theme.css">
 
     <script src="https://kit.fontawesome.com/65d3862938.js" crossorigin="anonymous"></script>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="build/template_gen.js"></script>
 </head>
 <body>
-    <header w3-include-html="static/header.html"></header>
+    <header w3-include-html="static/template/header.html"></header>
 
     <script>
-        w3.includeHTML();
+        templateGenAll();
     </script>
 </body>
 </html>

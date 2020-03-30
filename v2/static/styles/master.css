@@ -1,0 +1,57 @@
+body {
+    background-color: #f3f3f3;
+}
+
+.content-limiter {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logos {
+    text-align: center;
+}
+
+#lab-logo {
+    height: 64px;
+    width: auto;
+}
+
+.main-nav-btn {
+    transition-duration: .5s;
+}
+
+.main-nav-btn:hover {
+    border-radius: 10px;
+}
+
+#sns {
+    font-size: 30px;
+}
+
+#sns a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media screen and (min-width: 900px) {
+    #logos {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #lab-logo {
+        height: 70px;
+    }
+
+    #main-nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    #sns {
+        display: flex;
+        align-items: flex-end;
+    }
+}

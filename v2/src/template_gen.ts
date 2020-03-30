@@ -1,12 +1,12 @@
-class TemplateGen
+function templateGenAll(): void
 {
-    constructor()
-    {
-        this.genNavBar();
-    }
+    w3.includeHTML(() => {
+        templateGenPlaceHolders();
+    });
+}
 
-    genNavBar()
-    {
-        w3.displayHttp("#main-nav", "static/nav_items.json");
-    }
+function templateGenPlaceHolders(): void
+{
+    w3.displayHttp("sns", "static/data/sns_list.json");
+    w3.displayHttp("main-nav", "static/data/nav_items.json");
 }
