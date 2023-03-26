@@ -15,7 +15,7 @@ function HtmlGenerator()
         },
         {
             img: "https://cdn.jsdelivr.net/gh/kelvinchin12070811/web_images/twitter.svg",
-            link: "https://www.twitter.com/chinkaiwen",
+            link: "https://www.twitter.com/kelvinchin_cc",
             tooltip: "Twitter"
         },
         {
